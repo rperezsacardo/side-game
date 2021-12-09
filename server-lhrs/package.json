@@ -6,7 +6,8 @@
     "start": "node ./server",
     "dev": "nodemon ./server",
     "dev:debug": "DEBUG=server-lhrs* npm run dev",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "lintfix": "eslint . --fix"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
