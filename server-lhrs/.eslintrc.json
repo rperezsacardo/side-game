@@ -14,25 +14,25 @@
     }
   },
   "rules": {
-    "comma-dangle": ["error", "never"],
-    "func-call-spacing": ["error", "never"],
+    "comma-dangle": ["warn", "never"],
+    "func-call-spacing": ["warn", "never"],
     "keyword-spacing": [
-      "error",
+      "warn",
       {
         "before": true,
         "after": true
       }
     ],
-    "no-unused-vars": ["error"],
-    "no-undef": ["error"],
-    "no-var": ["error"],
-    "no-param-reassign": ["error"],
-    "no-shadow": ["error"],
-    "no-labels": ["error"],
+    "no-unused-vars": ["warn"],
+    "no-undef": ["warn"],
+    "no-var": ["warn"],
+    "no-param-reassign": ["warn"],
+    "no-shadow": ["warn"],
+    "no-labels": ["warn"],
     "prefer-arrow-callback": ["warn"],
-    "prefer-const": ["error"],
+    "prefer-const": ["warn"],
     "prettier/prettier": [
-      "error",
+      "warn",
       {},
       {
         "usePrettierrc": true
@@ -48,6 +48,6 @@
         "asyncArrow": "always"
       }
     ],
-    "space-before-blocks": ["error", "always"]
+    "space-before-blocks": ["warn", "always"]
   }
 }

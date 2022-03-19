@@ -21,12 +21,12 @@
     "jest": true
   },
   "rules": {
-    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/rules-of-hooks": "warn",
     "no-debugger": 0,
     "no-alert": 0,
     "no-unused-vars": 1,
     "prefer-const": [
-      "error",
+      "warn",
       {
         "destructuring": "all"
       }
@@ -86,7 +86,7 @@
       }
     ],
     "prettier/prettier": [
-      "error",
+      "warn",
       {
         "trailingComma": "none",
         "singleQuote": true,
